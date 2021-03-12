@@ -123,7 +123,13 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &681604482
+=======
+<<<<<<< Updated upstream
+=======
+--- !u!1 &51733645
+>>>>>>> origin/my_branch
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,23 +137,36 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 681604486}
   - component: {fileID: 681604485}
   - component: {fileID: 681604484}
   - component: {fileID: 681604483}
   m_Layer: 0
   m_Name: Cylinder
+=======
+  - component: {fileID: 51733647}
+  - component: {fileID: 51733646}
+  m_Layer: 0
+  m_Name: GameManager
+>>>>>>> origin/my_branch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!136 &681604483
 CapsuleCollider:
+=======
+--- !u!114 &51733646
+MonoBehaviour:
+>>>>>>> origin/my_branch
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 681604482}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -206,11 +225,21 @@ MeshFilter:
   m_GameObject: {fileID: 681604482}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &681604486
+=======
+  m_GameObject: {fileID: 51733645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e741f81ee9a0142852c09c436d7640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &51733647
+>>>>>>> origin/my_branch
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 681604482}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -219,6 +248,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 51733645}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.4039326, y: -4.374941, z: 4.463077}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
+>>>>>>> origin/my_branch
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,7 +352,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+<<<<<<< HEAD
 --- !u!1 &798289592
+=======
+<<<<<<< Updated upstream
+=======
+--- !u!1 &854272901
+>>>>>>> origin/my_branch
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -320,23 +366,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 798289596}
   - component: {fileID: 798289595}
   - component: {fileID: 798289594}
   - component: {fileID: 798289593}
   m_Layer: 0
   m_Name: Sphere
+=======
+  - component: {fileID: 854272905}
+  - component: {fileID: 854272904}
+  - component: {fileID: 854272903}
+  - component: {fileID: 854272902}
+  m_Layer: 0
+  m_Name: Plane
+>>>>>>> origin/my_branch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!135 &798289593
 SphereCollider:
+=======
+--- !u!64 &854272902
+MeshCollider:
+>>>>>>> origin/my_branch
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 798289592}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -345,12 +406,27 @@ SphereCollider:
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &798289594
+=======
+  m_GameObject: {fileID: 854272901}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &854272903
+>>>>>>> origin/my_branch
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 798289592}
+=======
+  m_GameObject: {fileID: 854272901}
+>>>>>>> origin/my_branch
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -385,20 +461,31 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< HEAD
 --- !u!33 &798289595
+=======
+--- !u!33 &854272904
+>>>>>>> origin/my_branch
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 798289592}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &798289596
+=======
+  m_GameObject: {fileID: 854272901}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &854272905
+>>>>>>> origin/my_branch
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 798289592}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.77, y: 0, z: 0}
@@ -407,6 +494,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 854272901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
+>>>>>>> origin/my_branch
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,7 +588,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1915046527
+=======
+<<<<<<< Updated upstream
+--- !u!1 &1944960358
+=======
+--- !u!1 &1647291769
+>>>>>>> Stashed changes
+>>>>>>> origin/my_branch
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -498,10 +604,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1915046531}
   - component: {fileID: 1915046530}
   - component: {fileID: 1915046529}
   - component: {fileID: 1915046528}
+=======
+<<<<<<< Updated upstream
+  - component: {fileID: 1944960362}
+  - component: {fileID: 1944960361}
+  - component: {fileID: 1944960360}
+  - component: {fileID: 1944960359}
+=======
+  - component: {fileID: 1647291774}
+  - component: {fileID: 1647291773}
+  - component: {fileID: 1647291772}
+  - component: {fileID: 1647291771}
+  - component: {fileID: 1647291770}
+>>>>>>> Stashed changes
+>>>>>>> origin/my_branch
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -509,26 +630,77 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!65 &1915046528
+=======
+<<<<<<< Updated upstream
+--- !u!65 &1944960359
+=======
+--- !u!95 &1647291770
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647291769}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f075e200b2b634145abc76b3ed8e6274, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1647291771
+>>>>>>> Stashed changes
+>>>>>>> origin/my_branch
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1915046527}
+=======
+<<<<<<< Updated upstream
+  m_GameObject: {fileID: 1944960358}
+=======
+  m_GameObject: {fileID: 1647291769}
+>>>>>>> Stashed changes
+>>>>>>> origin/my_branch
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!23 &1915046529
+=======
+<<<<<<< Updated upstream
+--- !u!23 &1944960360
+=======
+--- !u!23 &1647291772
+>>>>>>> Stashed changes
+>>>>>>> origin/my_branch
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1915046527}
+=======
+<<<<<<< Updated upstream
+  m_GameObject: {fileID: 1944960358}
+=======
+  m_GameObject: {fileID: 1647291769}
+>>>>>>> Stashed changes
+>>>>>>> origin/my_branch
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -563,20 +735,41 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< HEAD
 --- !u!33 &1915046530
+=======
+<<<<<<< Updated upstream
+--- !u!33 &1944960361
+=======
+--- !u!33 &1647291773
+>>>>>>> Stashed changes
+>>>>>>> origin/my_branch
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1915046527}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1915046531
+=======
+<<<<<<< Updated upstream
+  m_GameObject: {fileID: 1944960358}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1944960362
+=======
+  m_GameObject: {fileID: 1647291769}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1647291774
+>>>>>>> Stashed changes
+>>>>>>> origin/my_branch
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1915046527}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5.49}
@@ -584,4 +777,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+=======
+<<<<<<< Updated upstream
+  m_GameObject: {fileID: 1944960358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 1647291769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
+>>>>>>> Stashed changes
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+>>>>>>> origin/my_branch
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
