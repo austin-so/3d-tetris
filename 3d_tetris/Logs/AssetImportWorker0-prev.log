@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 15779 MB
+OS: 'Windows 10 Home; OS build 18363.1316; Version 1909; 64bit' Language: 'en' Physical Memory: 16328 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,81 +11,105 @@ C:\Program Files\Unity\Hub\Editor\2020.2.3f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Local User/Documents/GitHub/3d-tetris/3d_tetris
+C:/Users/austi/Documents/GitHub/my-3d-tetris/3d-tetris/3d_tetris
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60701
-Successfully changed project path to: C:/Users/Local User/Documents/GitHub/3d-tetris/3d_tetris
-C:/Users/Local User/Documents/GitHub/3d-tetris/3d_tetris
+53659
+Successfully changed project path to: C:/Users/austi/Documents/GitHub/my-3d-tetris/3d-tetris/3d_tetris
+C:/Users/austi/Documents/GitHub/my-3d-tetris/3d-tetris/3d_tetris
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Local User/Documents/GitHub/3d-tetris/3d_tetris/Assets
+[Subsystems] Discovering subsystems at path C:/Users/austi/Documents/GitHub/my-3d-tetris/3d-tetris/3d_tetris/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1be1)
     Vendor:   
-    VRAM:     7889 MB
-    Driver:   27.20.100.8854
+    VRAM:     8089 MB
+    Driver:   23.21.13.8927
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002552 seconds.
+Registered in 0.003418 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 41.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.279 seconds
+- Completed reload, in  3.200 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005008 seconds.
+Registered in 0.001417 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 44.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.671 seconds
+- Completed reload, in  1.690 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Failed to get ipc connection from UnityShaderCompiler.exe shader compiler! C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Tools/UnityShaderCompiler.exe
-Received signal SIGSEGV
-Stack trace:
-0x00007ff72587f1a1 (Unity) 
-0x00007ff72588f744 (Unity) 
-0x00007ff723d2ac46 (Unity) 
-0x00007ff724df513e (Unity) 
-0x00007ff724df9882 (Unity) 
-0x00007ff723d4b147 (Unity) 
-0x00007ff723d4d61e (Unity) 
-0x00007ff723d55a0c (Unity) 
-0x00007ff726a51feb (Unity) 
-0x00007ff724e031b3 (Unity) 
-0x00007ff726a54cde (Unity) 
-0x00007ff725a40504 (Unity) 
-0x00007ff725b090f2 (Unity) 
-0x00007ff725b0b250 (Unity) 
-0x00007ff725b0e9b6 (Unity) 
-0x00007ff725a84f10 (Unity) 
-0x00007ff725a84f60 (Unity) 
-0x00007ff724fa08a6 (Unity) 
-0x00007ff725918422 (Unity) 
-0x00007ff72777e3c6 (Unity) 
-0x00007fff7aa97034 (KERNEL32) 
-0x00007fff7bc42651 (ntdll) RtlUserThreadStart
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1493 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.3 MB.
 
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 3.261300 ms (FindLiveObjects: 0.378700 ms CreateObjectMapping: 0.146500 ms MarkObjects: 2.477800 ms  DeleteObjects: 0.256700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/i-colour.png
+  artifactKey: Guid(e44846c9b42dd834291cf96b58860b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/i-colour.png using Guid(e44846c9b42dd834291cf96b58860b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee41243dc47c5bd2e4f7c841742df4c') in 0.149568 seconds
+  Import took 0.154558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/z-material.mat
+  artifactKey: Guid(a265f5a7a000da84da3371c03f7435fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z-material.mat using Guid(a265f5a7a000da84da3371c03f7435fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa7eba59dda29c6c39dd0fcbb096fe4') in 0.128970 seconds
+  Import took 0.133686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(c328062f412566f478ffcbac6dcb7f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(c328062f412566f478ffcbac6dcb7f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffaed881121494c6068aba783a67006b') in 0.035897 seconds
+  Import took 0.039743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/z-colour.png
+  artifactKey: Guid(4cbac402cf7912945a13288acf8b46ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z-colour.png using Guid(4cbac402cf7912945a13288acf8b46ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677e4236b805dabddb420acd5035c890') in 0.015813 seconds
+  Import took 0.019895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/z-block.prefab
+  artifactKey: Guid(8b76c4bd25047b140974fad45a1d798a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/z-block.prefab using Guid(8b76c4bd25047b140974fad45a1d798a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdac115ca9e7c198024fa85300f1bdef') in 0.051960 seconds
+  Import took 0.057113 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
