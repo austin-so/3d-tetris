@@ -15,8 +15,6 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARPoseDriver
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
-    Unity.XR.ARKit.Editor.dll:
-    - UnityEditor.XR.ARKit.ARKitSettings
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -63,21 +61,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1454}
+      Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 1552}
+      Script: {instanceID: 1588}
     - Class: 114
-      Script: {instanceID: 2218}
+      Script: {instanceID: 2304}
     - Class: 114
-      Script: {instanceID: 2840}
+      Script: {instanceID: 2960}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 2964}
     - Class: 114
-      Script: {instanceID: 3214}
+      Script: {instanceID: 3368}
     - Class: 114
-      Script: {instanceID: 3420}
+      Script: {instanceID: 3600}
     - Class: 114
-      Script: {instanceID: 3794}
+      Script: {instanceID: 4002}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -221,6 +219,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
     className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: dc1bf7169b005112f7a4da5a6b15f0c4
+    assemblyName: Unity.XR.ARKit.dll
+    namespaceName: UnityEngine.XR.ARKit
+    className: ARKitReferenceObjectEntry
   - hash:
       serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
@@ -553,6 +557,12 @@ ScriptsOnlyBuild:
     className: ARSession
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARKit.dll
+    namespaceName: UnityEngine.XR.ARKit
+    className: ARKitLoaderSettings
+  - hash:
+      serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -571,10 +581,28 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARCore.dll
+    namespaceName: UnityEngine.XR.ARCore
+    className: ARCoreLoaderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARKit.dll
+    namespaceName: UnityEngine.XR.ARKit
+    className: ARKitLoader
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARCore.dll
+    namespaceName: UnityEngine.XR.ARCore
+    className: ARCoreLoader
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -767,37 +795,7 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.XR.ARCore.dll
-    namespaceName: UnityEngine.XR.ARCore
-    className: ARCoreLoaderSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.XR.ARCore.dll
-    namespaceName: UnityEngine.XR.ARCore
-    className: ARCoreLoader
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.XR.ARKit.dll
-    namespaceName: UnityEngine.XR.ARKit
-    className: ARKitLoaderSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.XR.ARKit.dll
-    namespaceName: UnityEngine.XR.ARKit
-    className: ARKitLoader
-  - hash:
-      serializedVersion: 2
-      Hash: dc1bf7169b005112f7a4da5a6b15f0c4
-    assemblyName: Unity.XR.ARKit.dll
-    namespaceName: UnityEngine.XR.ARKit
-    className: ARKitReferenceObjectEntry
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/austi/Documents/GitHub/my-3d-tetris/3d-tetris/3d_tetris/3d_tetris_run.apk
+  playerPath: C:/Users/Local User/Documents/GitHub/3d-tetris/3d_tetris/3dtetrisrun.apk
