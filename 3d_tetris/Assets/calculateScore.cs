@@ -10,14 +10,19 @@ public class calculateScore : MonoBehaviour
     private float startScore;
     private bool end = false;
     private double totalCapacity = 10*10*40;
+    double s = 0;
+    private int frames = 0;
 
 
     timer timer = new timer();
+    GameManager gm = new GameManager();
+
 
     // Start is called before the first frame update
     void Start()
     {
         startScore = 0;
+        score.text = startScore.ToString();
     }
 
     // Update is called once per frame
@@ -26,17 +31,22 @@ public class calculateScore : MonoBehaviour
         if(end)
             return;
 
-        //int blocks = getBlocks();
+        int blocks = gm.getBlockCounter();
+        double b = (double)blocks;
+        
         double time = (double)timer.getTime();
 
-        //temp test value
-        double blocks = 57;
+        print("time: " + time);
+        print("block count: " + b);
 
-        double capacity = blocks/totalCapacity;
+        b = b*40000;
+
+        double capacity = b/totalCapacity;
         double s =+ (capacity*100)/time;
 
-
-
-        score.text = s.ToString("f0");
+        frames++; 
+        if(frames% 100 == 0){
+            score.text = s.ToString("f0");
+        }
     }
 }

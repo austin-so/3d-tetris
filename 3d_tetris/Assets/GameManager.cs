@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public GameObject tPrefab;
     public GameObject zPrefab;
     public GameObject sPrefab;
-    public int blockCounter;
+    public static int blockCounter;
     float tempPos;
     int count; // want to check Update once every 30 frames
 
@@ -64,11 +64,13 @@ public class GameManager : MonoBehaviour
             if(block.transform.position.y == tempPos)
             {
                 DropBlock();
+               
             }
             else
             {
                 tempPos = block.transform.position.y;
                 Debug.Log("Temp: " + tempPos + "\nBlock: " + block.transform.position.y);
+
             }
         }
 
