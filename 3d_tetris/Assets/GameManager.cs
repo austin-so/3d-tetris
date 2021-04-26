@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     float tempPos;
     int count; // want to check Update once every 30 frames
 
-    GameObject block;
+    public static GameObject block;
     // Start is called before the first frame update
     void Start()
     {
@@ -75,4 +75,11 @@ public class GameManager : MonoBehaviour
         }
 
     }
+
+    public GameObject getBlock()
+    {
+        return block;
+    }
+
+
 }
