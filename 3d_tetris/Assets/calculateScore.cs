@@ -36,14 +36,14 @@ public class calculateScore : MonoBehaviour
         
         double time = (double)timer.getTime();
 
-        print("time: " + time);
-        print("block count: " + b);
+        //print("time: " + time);
+        //print("block count: " + b);
 
         b = b*40000;
 
         double capacity = b/totalCapacity;
-        double s =+ (capacity*100)/time;
-
+        double s =+ (capacity*1000)/time;
+        print("time: " + time);
         frames++; 
         if(frames% 100 == 0){
             score.text = s.ToString("f0");
