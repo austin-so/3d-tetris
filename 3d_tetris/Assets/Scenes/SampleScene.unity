@@ -266,6 +266,7 @@ MonoBehaviour:
   tPrefab: {fileID: 4000866201997863648, guid: 6946731d90cd5bc4eb7b5b11e346fde5, type: 3}
   zPrefab: {fileID: 8099778702407482781, guid: 8b76c4bd25047b140974fad45a1d798a, type: 3}
   sPrefab: {fileID: 9056168872730156325, guid: 1b6ca3dc9d808e34a86c7e0f016669f9, type: 3}
+  lPrefab: {fileID: 1635966077439203044, guid: 175151c6a184c084d937ccdca679fb68, type: 3}
 --- !u!4 &160504298
 Transform:
   m_ObjectHideFlags: 0
