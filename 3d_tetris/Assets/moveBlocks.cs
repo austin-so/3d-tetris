@@ -43,7 +43,13 @@ public class moveBlocks : MonoBehaviour
     public void drop(){
          
         block = gm.getBlock();
-        block.transform.position = new Vector3(block.transform.position.x, block.transform.position.y-1, block.transform.position.z);
+        if(block.transform.position.y > 2){
+            block.transform.position = new Vector3(block.transform.position.x, block.transform.position.y-1, block.transform.position.z);
+        }
+        else{
+            block.transform.position = new Vector3(block.transform.position.x, block.transform.position.y, block.transform.position.z);
+        }
+        
 
         print("drop");
     }
