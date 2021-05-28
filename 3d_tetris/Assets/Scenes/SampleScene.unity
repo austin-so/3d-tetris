@@ -233,6 +233,62 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 3
+<<<<<<< Updated upstream
+=======
+--- !u!1 &160504296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 160504298}
+  - component: {fileID: 160504297}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &160504297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160504296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5ed0c1f859c5694ba453fa369e972c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iPrefab: {fileID: 683183790043832343, guid: 0525cdc781638d8488bfc916066cc9c3, type: 3}
+  tPrefab: {fileID: 4000866201997863648, guid: 6946731d90cd5bc4eb7b5b11e346fde5, type: 3}
+  zPrefab: {fileID: 8099778702407482781, guid: 8b76c4bd25047b140974fad45a1d798a, type: 3}
+  sPrefab: {fileID: 9056168872730156325, guid: 1b6ca3dc9d808e34a86c7e0f016669f9, type: 3}
+  lPrefab: {fileID: 1635966077439203044, guid: 175151c6a184c084d937ccdca679fb68, type: 3}
+--- !u!4 &160504298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160504296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &166155418 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 664585227706206619, guid: 67ed1bd619e108d4e92a8c2e8c0844df, type: 3}
+  m_PrefabInstance: {fileID: 4329479738791096008}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!1 &211104547
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,7 +1039,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394403233}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8211152e8c865c6418f0a9643c472092, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4

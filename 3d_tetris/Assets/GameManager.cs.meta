@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d5ed0c1f859c5694ba453fa369e972c1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - iPrefab: {fileID: 683183790043832343, guid: 0525cdc781638d8488bfc916066cc9c3, type: 3}
+  - tPrefab: {fileID: 1635966077439203044, guid: 175151c6a184c084d937ccdca679fb68, type: 3}
+  - zPrefab: {fileID: 1635966077439203044, guid: 175151c6a184c084d937ccdca679fb68, type: 3}
+  - sPrefab: {fileID: 1635966077439203044, guid: 175151c6a184c084d937ccdca679fb68, type: 3}
+  - lPrefab: {fileID: 1635966077439203044, guid: 175151c6a184c084d937ccdca679fb68, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
