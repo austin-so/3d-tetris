@@ -43,7 +43,7 @@ public class calculateScore : MonoBehaviour
 
         double capacity = b/totalCapacity;
         double s =+ (capacity*1000)/time;
-        print("time: " + time);
+        //print("time: " + time);
         frames++; 
         if(frames% 100 == 0){
             score.text = s.ToString("f0");

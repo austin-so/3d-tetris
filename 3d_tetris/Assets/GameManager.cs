@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public GameObject tPrefab;
     public GameObject zPrefab;
     public GameObject sPrefab;
+    public GameObject lPrefab;
     public static int blockCounter;
     float tempPos;
     int count; // want to check Update once every 30 frames
@@ -26,7 +27,8 @@ public class GameManager : MonoBehaviour
     void DropBlock()
     {
         // Randomly generate block
-        int randGen = Random.Range(1, 5);
+        int randGen = Random.Range(1, 6);
+        print("Block Selector: " + randGen);
         switch (randGen)
         {
             case 1:
@@ -40,6 +42,9 @@ public class GameManager : MonoBehaviour
                 break;
             case 4:
                 block = Instantiate(sPrefab, new Vector3(0, 40.0f, 12), Quaternion.identity);
+                break;
+            case 5:
+                block = Instantiate(lPrefab, new Vector3(0, 40.0f, 12), Quaternion.identity);
                 break;
         }
 
@@ -69,7 +74,7 @@ public class GameManager : MonoBehaviour
             else
             {
                 tempPos = block.transform.position.y;
-                Debug.Log("Temp: " + tempPos + "\nBlock: " + block.transform.position.y);
+                //Debug.Log("Temp: " + tempPos + "\nBlock: " + block.transform.position.y);
 
             }
         }
